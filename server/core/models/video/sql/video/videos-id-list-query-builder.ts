@@ -773,6 +773,14 @@ export class VideosIdListQueryBuilder extends AbstractRunQuery {
       )
     }
 
+    if (sort === "random") {
+      const now = new Date()
+      this.replacements.seed = "0." +
+        (now.getFullYear() * 365 + now.getMonth() * 31 + now.getDate())
+
+      this.queryConfig = "SELECT setseed(:seed)"
+    }
+
     this.sort = this.buildOrder(sort)
   }
 
