@@ -48,7 +48,7 @@ export class VideosSelectionComponent implements AfterContentInit {
   globalButtonsTemplate: TemplateRef<any>
 
   videos: Video[] = []
-  sort: VideoSortField = '-publishedAt'
+  sort: VideoSortField = 'random'
 
   onDataSubject = new Subject<any[]>()
 

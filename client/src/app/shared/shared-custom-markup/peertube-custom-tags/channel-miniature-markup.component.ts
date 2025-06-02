@@ -85,7 +85,7 @@ export class ChannelMiniatureMarkupComponent implements CustomMarkupComponent, O
         currentPage: 1,
         itemsPerPage: 1
       },
-      sort: '-publishedAt' as VideoSortField,
+      sort: 'random' as VideoSortField,
       count: 1
     }
 

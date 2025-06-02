@@ -39,7 +39,7 @@ export class VideoFilters {
   search: string
 
   private defaultValues = new Map<keyof VideoFilters, any>([
-    [ 'sort', '-publishedAt' ],
+    [ 'sort', 'random' ],
     [ 'nsfw', 'false' ],
     [ 'languageOneOf', undefined ],
     [ 'categoryOneOf', undefined ],
