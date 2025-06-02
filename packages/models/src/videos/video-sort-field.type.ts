@@ -14,6 +14,8 @@ export type VideoSortField =
 
   'localVideoFilesSize' | '-localVideoFilesSize' |
 
+  'random' |
+
   // trending sorts
   'trending' | '-trending' |
   'hot' | '-hot' |

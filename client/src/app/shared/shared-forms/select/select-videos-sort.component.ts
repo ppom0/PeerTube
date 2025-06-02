@@ -44,6 +44,7 @@ export class SelectVideosSortComponent implements ControlValueAccessor, OnInit {
 
   private buildSortItems () {
     this.sortItems = [
+      { id: 'random', label: $localize`Random` },
       { id: '-publishedAt', label: $localize`Recently Added` },
       { id: '-originallyPublishedAt', label: $localize`Original Publication Date` },
       { id: 'name', label: $localize`Name` }
