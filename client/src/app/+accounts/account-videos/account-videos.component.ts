@@ -23,7 +23,7 @@ export class AccountVideosComponent implements OnInit, OnDestroy, DisableForReus
   getVideosObservableFunction = this.getVideosObservable.bind(this)
   getSyndicationItemsFunction = this.getSyndicationItems.bind(this)
 
-  defaultSort = '-publishedAt' as VideoSortField
+  defaultSort = 'random' as VideoSortField
 
   account: Account
   disabled = false

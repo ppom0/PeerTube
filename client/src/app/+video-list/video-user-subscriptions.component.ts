@@ -24,7 +24,7 @@ export class VideoUserSubscriptionsComponent implements DisableForReuseHook {
   getVideosObservableFunction = this.getVideosObservable.bind(this)
   getSyndicationItemsFunction = this.getSyndicationItems.bind(this)
 
-  defaultSort = '-publishedAt' as VideoSortField
+  defaultSort = 'random' as VideoSortField
 
   actions = [
     {
