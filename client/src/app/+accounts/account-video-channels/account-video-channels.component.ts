@@ -48,7 +48,7 @@ export class AccountVideoChannelsComponent implements OnInit, OnDestroy {
     itemsPerPage: 5,
     totalItems: null
   }
-  videosSort: VideoSortField = '-publishedAt'
+  videosSort: VideoSortField = 'random'
 
   onChannelDataSubject = new Subject<any>()
 

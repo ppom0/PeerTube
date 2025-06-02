@@ -50,7 +50,7 @@ export class VideoFilters {
   private nsfwFlagsBlurred: number
 
   private defaultValues = new Map<keyof VideoFilters, any>([
-    [ 'sort', '-publishedAt' ],
+    [ 'sort', 'random' ],
     [ 'languageOneOf', undefined ],
     [ 'categoryOneOf', undefined ],
     [ 'scope', 'federated' ],

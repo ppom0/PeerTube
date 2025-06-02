@@ -25,7 +25,7 @@ export class VideoChannelVideosComponent implements OnInit, AfterViewInit, OnDes
   getVideosObservableFunction = this.getVideosObservable.bind(this)
   getSyndicationItemsFunction = this.getSyndicationItems.bind(this)
 
-  defaultSort = '-publishedAt' as VideoSortField
+  defaultSort = 'random' as VideoSortField
 
   videoChannel: VideoChannel
   disabled = false

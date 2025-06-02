@@ -39,7 +39,7 @@ export class VideosListAllComponent implements OnInit, OnDestroy, DisableForReus
   private routeSub: Subscription
 
   ngOnInit () {
-    this.defaultSort = '-publishedAt'
+    this.defaultSort = 'random'
     this.defaultScope = 'federated'
 
     this.routeSub = this.route.params.subscribe(() => this.update())
