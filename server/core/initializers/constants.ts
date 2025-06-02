@@ -112,6 +112,7 @@ export const SORTABLE_COLUMNS = {
   RUNNER_JOBS: [ 'updatedAt', 'createdAt', 'priority', 'state', 'progress' ],
 
   VIDEOS: [
+    'random',
     'name',
     'duration',
     'createdAt',

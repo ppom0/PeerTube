@@ -113,6 +113,11 @@ export class VideosListAllComponent implements OnInit, OnDestroy, DisableForReus
       return
     }
 
+    if (sanitizedSort === 'random') {
+      this.title = $localize`Random`
+      return
+    }
+
     if ([ 'hot', 'trending', 'likes', 'views' ].includes(sanitizedSort)) {
       this.title = $localize`Trending`
       return

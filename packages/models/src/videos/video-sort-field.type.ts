@@ -7,6 +7,8 @@ export type VideoSortField =
   'views' | '-views' |
   'likes' | '-likes' |
 
+  'random' |
+
   // trending sorts
   'trending' | '-trending' |
   'hot' | '-hot' |
